@@ -39,19 +39,6 @@ Each stage of the pipeline is modular — allowing easy replacement of loaders, 
 | Environment | `.env` file with API key |
 | Notebook | Jupyter Notebook (`study_buddy.ipynb`) |
 
----
-
-## 📂 Project Structure
-
-RAG-Course-Knowledge-Assistant/
-│
-├── pdf/ # Raw course PDFs
-├── chroma_store/ # Vector store (ignored in Git)
-├── study_buddy.ipynb # Main RAG pipeline notebook
-├── .env # OpenAI API key (ignored in Git)
-├── .gitignore
-└── README.md
-
 
 
 ---
